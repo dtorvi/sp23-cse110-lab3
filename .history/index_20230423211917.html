@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet" <meta charset="UTF-8">
+    <title>CSE 110 Lab 2</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 50;
+          padding: 20;
+          background-color: lavenderblush;
+        }
+        </style>
+  </head>
+  <body>
+    <section>
+        <h2 id = "meetingtopic">Meeting Topic: Introduction</h2>
+        <h3>Date: April 23, 2023</h3>
+        <h3>Attendance List:</h3>
+        <ul>
+          <li>Devika Torvi</li>
+          <li>Devika Torvi</li>
+          <li>Devika Torvi</li>
+        </ul>
+        <h2 id = "agenda">Agenda</h2>
+        <ul>
+            <li>Introductions</li>
+            <li>Games</li>
+            <li>Task Delegation</li>
+            <li>Set deadlines</li>
+        </ul>
+        <h2 id = "unfinishedbusiness">Unfinished Business</h2>
+        <ul>
+            <li>Learning everyone's names</li>
+        </ul>
+
+        <h2 id = "newbusiness">New Business</h2>
+        <ul>
+            <li>Discuss each team member's skillsets</li>
+            <li>Create tasks for the project</li>
+            <li>Assign tasks</li>
+        </ul>
+
+        <h2 id = "miscellaneous">Miscellaneous</h2>
+        <p>Image concept for 8 ball game</p>
+        <img src="https://toybook.com/wp-content/uploads/2015/04/Magic8Ball2.jpg" alt="Magic 8 Ball">
+
+        <video controls>
+            <source src="river_creek_stream_nature_flowing_821.mp4" type="video/mp4">
+        </video>
+        <audio controls>
+            <source src="an-epic-30-sec-16063.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+    </section>
+    <section>
+    <h2 id = "form">Form</h2>
+    <form>
+        <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+        
+            <label>What Languages Do You Know:</label><br>
+            <input type="checkbox" id="java" name="language" value="Java">
+            <label for="java">Java</label><br>
+            <input type="checkbox" id="python" name="language" value="Python">
+            <label for="python">Python</label><br>
+            <input type="checkbox" id="cpp" name="language" value="C++">
+            <label for="cpp">C++</label><br>
+        
+            <label>What is your favorite move?</label><br>
+            <label>
+                <input type="radio" id="movie1" name="movie" value="movie1">
+                <span>White Chicks</span>
+            </label><br>
+            <label>
+                <input type="radio" id="movie2" name="movie" value="movie2">
+                <span>The Godfather</span>
+            </label><br>
+            <label>
+                <input type="radio" id="movie3" name="movie" value="movie3">
+                <span>The Dark Knight</span>
+            </label><br>
+        
+            <label for="dob">What is your date of birth?</label>
+            <input type="date" id="dob" name="dob"><br>
+        
+            <label for="quote">What is your favorite quote?</label>
+            <textarea id="quote" name="quote" rows="4" cols="50"></textarea><br>
+        
+            <label for="ice-cream">What is your favorite ice cream flavor?</label>
+            <input list="flavors" id="ice-cream" name="ice-cream">
+            <datalist id="flavors">
+            <option value="Chocolate">
+            <option value="Vanilla">
+            <option value="Strawberry">
+            <option value="Mint Chocolate Chip">
+            <option value="Cookie Dough">
+            </datalist><br>
+        
+            <label for="cuisine">What is your favorite cuisine?</label>
+            <select id="cuisine" name="cuisine">
+            <option value="italian">Italian</option>
+            <option value="mexican">Mexican</option>
+            <option value="indian">Indian</option>
+            <option value="chinese">Chinese</option>
+            </select><br>
+        
+            <button type="submit">Submit</button><br>
+        </fieldset>
+        </form>
+    </section>
+  </body>
+</html>
