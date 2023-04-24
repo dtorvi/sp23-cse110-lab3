@@ -19,21 +19,8 @@
     margin-bottom: 2rem;
     margin-left: auto;
 }
-
-.attend:hover ul {
-    background-color: yellow;
-  }
-
-.container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 10px;
-}
-
 .attend {
-    background-color: lightblue;
-    padding: 10px;
-    border: 1px solid gray;
+    display: grid;
 }
 .box-block {
     display: block;
@@ -52,7 +39,7 @@ body {
 #newbusiness,
 #miscellaneous,
 #form{
-    color: rgb(100, 11, 11);
+    color: #555;
     font-size: 24px;
     margin-top: 0;
     margin-bottom: 10px;

@@ -19,21 +19,8 @@
     margin-bottom: 2rem;
     margin-left: auto;
 }
-
-.attend:hover ul {
-    background-color: yellow;
-  }
-
-.container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 10px;
-}
-
 .attend {
-    background-color: lightblue;
-    padding: 10px;
-    border: 1px solid gray;
+    display: grid;
 }
 .box-block {
     display: block;

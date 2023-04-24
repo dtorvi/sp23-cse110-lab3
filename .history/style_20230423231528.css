@@ -28,12 +28,12 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 10px;
-}
+    }
 
 .attend {
-    background-color: lightblue;
-    padding: 10px;
-    border: 1px solid gray;
+background-color: lightblue;
+padding: 10px;
+border: 1px solid gray;
 }
 .box-block {
     display: block;
