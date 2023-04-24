@@ -42,11 +42,11 @@ body {
     margin-bottom: 10px;
 }
 h2:hover[href="#meeting"],
-h2:hover[href="#agenda"],
-h2:hover[href="#unfinishedbusiness"],
-h2:hover[href="#misc"],
-h2:hover[href="#newbusiness"],
-h2:hover[href="#miscellaneous"] {
+a:hover[href="#agenda"],
+a:hover[href="#unfinishedbusiness"],
+a:hover[href="#misc"],
+a:hover[href="#newbusiness"],
+a:hover[href="#miscellaneous"] {
     background-color: blueviolet;
 }
 

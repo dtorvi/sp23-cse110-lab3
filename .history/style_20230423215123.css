@@ -46,7 +46,7 @@ h2:hover[href="#agenda"],
 h2:hover[href="#unfinishedbusiness"],
 h2:hover[href="#misc"],
 h2:hover[href="#newbusiness"],
-h2:hover[href="#miscellaneous"] {
+a:hover[href="#miscellaneous"] {
     background-color: blueviolet;
 }
 
