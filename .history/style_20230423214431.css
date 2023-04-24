@@ -41,15 +41,6 @@ body {
     margin-top: 0;
     margin-bottom: 10px;
 }
-a:hover[href="#meeting"],
-a:hover[href="#agenda"],
-a:hover[href="#unfinishedbusiness"],
-a:hover[href="#misc"],
-a:hover[href="#newbusiness"],
-a:hover[href="#miscellaneous"] {
-    background-color: blueviolet;
-}
-
 p {
     color: hsl(210, 50%, 50%);
   }

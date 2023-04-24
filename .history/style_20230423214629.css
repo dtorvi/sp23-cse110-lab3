@@ -45,9 +45,10 @@ a:hover[href="#meeting"],
 a:hover[href="#agenda"],
 a:hover[href="#unfinishedbusiness"],
 a:hover[href="#misc"],
-a:hover[href="#newbusiness"],
-a:hover[href="#miscellaneous"] {
-    background-color: blueviolet;
+a:hover[href="#pictureMedia"],
+a:hover[href="#audioMedia"],
+a:hover[href="#newBuisness"] {
+    background-color: yellow;
 }
 
 p {

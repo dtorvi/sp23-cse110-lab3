@@ -47,7 +47,7 @@ a:hover[href="#unfinishedbusiness"],
 a:hover[href="#misc"],
 a:hover[href="#newbusiness"],
 a:hover[href="#miscellaneous"] {
-    background-color: blueviolet;
+    background-color: yellow;
 }
 
 p {
