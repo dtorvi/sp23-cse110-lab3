@@ -70,5 +70,5 @@ p ~ span {
     color: green;
 }
 ul > li {
-    font-style: italic;
+font-style: italic;
 }

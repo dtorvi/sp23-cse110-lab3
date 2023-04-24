@@ -1,4 +1,4 @@
-.my-class{
+my.{
     background-color: blanchedalmond;
 }
 .title {
@@ -62,13 +62,4 @@ button[type="submit"] {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-}
-h1 + p {
-    margin-top: 20px;
-}
-p ~ span {
-    color: green;
-}
-ul > li {
-    font-style: italic;
 }
