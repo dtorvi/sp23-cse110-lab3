@@ -1,0 +1,47 @@
+html{
+    background-color: blanchedalmond;
+}
+#meeting,
+#agenda,
+#unfinishedbusiness,
+#newbusiness,
+#miscellaneous,
+#form{
+    color: #555;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+h3 {
+    color: #999;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+li {
+    margin-bottom: 5px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+video {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+audio {
+    display: block;
+    margin: 20px auto;
+}
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
