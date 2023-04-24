@@ -27,7 +27,7 @@ body {
     margin-left: 100px;
     margin-right: 100px;
 }
-/*Editing SubTitles*/
+
 #meeting,
 #agenda,
 #unfinishedbusiness,
@@ -51,7 +51,6 @@ h3 {
 li {
     margin-bottom: 5px;
 }
-/*Media formatting*/
 img {
     max-width: 100%;
     height: auto;
