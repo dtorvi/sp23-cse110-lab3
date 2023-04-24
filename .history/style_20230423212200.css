@@ -73,6 +73,9 @@ button[type="submit"] {
 h1 + p {
     margin-top: 20px;
 }
+p ~ span {
+    color: green;
+}
 ul > li {
     font-style: italic;
 }
